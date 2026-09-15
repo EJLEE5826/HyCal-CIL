@@ -1,0 +1,8 @@
+backbone: 'ViT-B/16'
+datasets: ["aircraft", "artbench10-256", "dtd", "eurosat", "galaxy10-decals", "mnist", "organamnist", "oxford_flowers"]
+
+data_root: ./data
+batch_size: 128
+num_workers: 4
+
+augmentation_time: 1

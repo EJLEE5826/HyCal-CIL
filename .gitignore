@@ -1,0 +1,180 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Experiment outputs and results
+output_dir/
+outputs/
+results/
+logs/
+*.log
+
+# Model checkpoints and weights
+*.pkl
+*.pth
+*.pt
+models/
+checkpoints/
+
+# Data files (keep config files, exclude large data)
+2604.15678v1.pdf
+*.npy
+*.npz
+*.h5
+data/
+datasets/
+
+# Embeddings and temporary files
+embed_*.npz
+*.tmp
+temp_*.py
+tmp.ipynb
+
+# Visualization and analysis outputs
+visualization/
+plots/
+tsne_*.png
+
+# WandB
+wandb/
+.wandb/
+
+# CLIP cache
+~/.cache/clip/
+
+# Python environment exports
+environment.yml
+environment-*.yml
+conda-lock.yml
+
+# Backup and old files
+/deprecated/
+*.bak
+*.orig
+*_old.py
+*_backup.py
+
+# Specific legacy files
+# apc_clip_rmd*.py
+# experiment_runner_*.py
+# hycal_org.py
+# sweep_*.py
+# run*.sh
+# !scripts/run.sh
+# eval_*.py
+# memory_utils.py
+# log_config.py
+# visualization/ablation_v*.csv
+# visualization/make_mean.py
+# visualization/ablation_visualize.ipynb
+# visualize_intro_tsne.py
+# fx_xdil_setting.py
+# last_*.py
+# temp_*.py
+
+# Config files (keep main ones)
+# config/data_config_*.yaml
+# config/few_shot_config_*.yaml
+# !config/data_config.yaml
+# !config/few_shot_config_5shot.yaml
+# config/sweep_config.yaml
+
+# Jupyter temp files
+.jupyter/
+*.nbconvert.*
+
+# Mac OS
+.AppleDouble
+.LSOverride
+._*
+
+# Node modules (if any frontend code)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Poetry or similar
+poetry.lock
+Pipfile.lock
+
+# Any compiled/generated files not in source
+*.so
+*.dylib
+*.dll

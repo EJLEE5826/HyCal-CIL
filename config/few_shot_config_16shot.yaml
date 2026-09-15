@@ -1,0 +1,42 @@
+# 16-shot config for X-TAIL benchmark
+# All datasets use 16 training samples per class
+
+aircraft:
+  train: 16
+  test: null
+
+caltech101:
+  train: 16
+  test: null
+
+dtd:
+  train: 16
+  test: null
+
+eurosat:
+  train: 16
+  test: null
+
+oxford_flowers:
+  train: 16
+  test: null
+
+food101:
+  train: 16
+  test: null
+
+mnist:
+  train: 16
+  test: null
+
+oxford_pets:
+  train: 16
+  test: null
+
+stanford_cars:
+  train: 16
+  test: null
+
+sun397:
+  train: 16
+  test: null

@@ -1,0 +1,8 @@
+backbone: 'ViT-B/16'
+datasets: ["aircraft", "caltech101", "dtd", "eurosat", "oxford_flowers", "food101", "mnist", "oxford_pets", "stanford_cars", "sun397"]
+
+data_root: ./data
+batch_size: 128
+num_workers: 8
+
+augmentation_time: 1

@@ -1,0 +1,31 @@
+aircraft:
+  train: 10
+  test: null
+
+dtd:
+  train: 20
+  test: null
+
+eurosat:
+  train: 5
+  test: null
+
+oxford_flowers:
+  train: 10
+  test: null
+
+mnist:
+  train: 5
+  test: null
+
+organamnist:
+  train: 5
+  test: null
+
+artbench10-256:
+  train: 5
+  test: null
+
+galaxy10-decals:
+  train: 5
+  test: null
